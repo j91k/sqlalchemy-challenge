@@ -1,5 +1,5 @@
 # sqlalchemy-challenge
 
-Resource folder contains the CSV file & SQLite file
+1. Resource folder contains the CSV file & SQLite file
 
-app.py contains the flask set up
+2. app.py contains the flask set up
