@@ -1,4 +1,4 @@
-# SQLALCHEMY-CHALLENGE
+# SQLALCHEMY PROJECT
 ## Climate Analysis and Flask API
 
 ### Overview
