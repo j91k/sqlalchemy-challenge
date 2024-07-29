@@ -2,7 +2,7 @@
 ## Climate Analysis and Flask API
 
 ### Overview
-This project involves climate analysis using SQLite database of weather data for Hawaii. The analysis is performed using Python and SQLAlchemy, and the results are displayed via a Flask API. The API provides various endpoints to query and retrieve climate data.
+This project involved climate analysis using an SQLite database of weather data for Hawaii. The analysis was performed using Python and SQLAlchemy, and the results were displayed via a Flask API. The API provided various endpoints to query and retrieve climate data.
 
 ### Requirements
 - Python 3.8+
@@ -12,33 +12,34 @@ This project involves climate analysis using SQLite database of weather data for
 - Matplotlib
 
 ### Setup Instructions
-1. Clone the repository
-2. Create and activate a virtual environment
-3. Install the required packages
-4. Run the Flask application <code style ="color:blue">[Python app.py](sqlalchemy-challenge\SurfsUp\Erna_climate_starter.ipynb)</code>
+1. Cloned the repository
+2. Created and activated a virtual environment
+3. Installed the required packages
+4. Ran the Flask application <code style ="color:blue">Python app.py</code>
 
 ### Usage
 #### Available API Endpoints
-1. **Homepage**  : List all available routes 
+1. **Homepage**  : Listed all available routes 
 
     GET `/`
 
-2. **Precipitation Data** : Retrieves last 12 months of precipitation data.
+2. **Precipitation Data** : Retrieved the last 12 months of precipitation data.
 
     GET `/api/v1.0/precipitation`
 
-3. **Stations** : Returns a list of all stations.
+3. **Stations** : Returned a list of all stations.
 
     GET `/api/v1.0/stations`
 
-4. **Temperature Observations**: Returns temperature observations of the most active station for the previous year.
+4. **Temperature Observations**: Returned temperature observations of the most active station for the previous year.
 
     GET `/api/v1.0/tobs`
 
-5. **Temperature Stats from Start Date**: Returns the minimun, averaget, and maximum temperatures from the start date to the end of the dataset.
+5. **Temperature Stats from Start Date**: Returned the minimum, average, and maximum temperatures from the start date to the end of the dataset.
 
-    Get `/api/v1.0/<start>`
+    GET `/api/v1.0/<start>`
 
-6. **Temperature Stats from Start to End Date**: Returns the minimum, average, and maximum temperatures for the specified date range.
+6. **Temperature Stats from Start to End Date**: Returned the minimum, average, and maximum temperatures for the specified date range.
 
     GET `/api/v1.0/<start>/<end>`
+
